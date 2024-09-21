@@ -51,7 +51,7 @@ export const GET = async (request: NextRequest) => {
       ok: true,
       enrollments: DB.enrollments,
     });
-  } else role === "STUDENT";
+  } else 
   {
     const courseNoList = [];
     for (const enroll of DB.enrollments) {
